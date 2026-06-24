@@ -20,7 +20,7 @@ function App() {
         .filter(item => item);
 
       const response = await axios.post(
-        "http://localhost:3000/bfhl",
+        " https://chitkara-round1-hierarchy-api-2.onrender.com",
         { data }
       );
 
