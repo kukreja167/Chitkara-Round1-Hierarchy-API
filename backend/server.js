@@ -7,6 +7,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => {
+    res.send("bfhl api is running");
+});
 
 app.post("/bfhl", (req, res) => {
 
