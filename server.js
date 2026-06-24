@@ -16,8 +16,8 @@ app.post("/bfhl", (req, res) => {
 
     res.json({
         user_id: "kavyakukreja_24062026",
-        email_id: "your_email",
-        college_roll_number: "your_roll_number",
+        email_id: "kavya0794.be23@chitkara.edu.in",
+        college_roll_number: "2310990794",
         ...result
     });
 });
